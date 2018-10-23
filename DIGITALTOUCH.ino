@@ -6,8 +6,8 @@ Arduino     Touch Sensor
 */
 
 int TouchSensor = 3; //connected to Digital pin D3
-int onLed = 6;
-int offLed = 13;
+int onLed = 6; //connected to pin 6
+int offLed = 13; //connected to pin 13
 void setup(){
   Serial.begin(9600); // Communication speed
   pinMode(onLed, OUTPUT);
